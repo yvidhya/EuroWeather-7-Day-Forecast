@@ -54,11 +54,6 @@ No frameworks required.
 
 ---
 
-## 🚀 Live Demo
-<img width="1920" height="1020" alt="Screenshot 2025-11-19 212606" src="https://github.com/user-attachments/assets/814947a9-9be7-407b-a339-54deac9b0f4a" />
-
----
-
 ## Getting Started
 
 ### 1. Clone the Repository
@@ -89,8 +84,6 @@ http://localhost:8000
 
 ### 1️⃣ Upload a City Dataset (CSV)
 Sample CSV :
-[Uploading cities.csv…]()
-
 
 
 The app expects columns like:
