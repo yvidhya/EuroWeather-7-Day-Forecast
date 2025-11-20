@@ -1,4 +1,8 @@
 # 🌍 EuroWeather 7-Day Forecast – Developer Documentation
+**Summary**
+A client-side weather forecast app that lets users upload European city datasets, search locations, use geolocation, and fetch 7-day forecasts via the 7Timer API—fully built in vanilla JS with optimized parsing, error handling, and UI rendering.
+
+---
 
 ## Overview
 
@@ -10,6 +14,12 @@ The idea is simple:
 Along the way, I learned a lot about client-side CSV parsing, dynamic UI rendering, geolocation, error handling, API quirks, and performance considerations in pure JavaScript applications.
 
 This documentation is meant for developers who want to understand how the app works under the hood or extend it further.
+
+---
+
+
+**Live Demo**
+<img width="1920" height="1020" alt="Screenshot 2025-11-19 212606" src="https://github.com/user-attachments/assets/10fd1629-b50d-4b02-9c3a-f51d914e3518" />
 
 ---
 
@@ -25,6 +35,8 @@ This is a front-end-only project, so the technical requirements are minimal.
 * Git (to clone the repo)
 
 The app automatically parses the file and populates the city selector.
+---
+**Features**
 
 ### 🔹 **Smart Search & Auto-Filtering**
 A live search bar filters city names instantly.
@@ -44,13 +56,13 @@ Each daily forecast displays:
 - Day label (Mon, Tue…)  
 
 ### 🔹 **Clean, Modern UI**
-Built with:
-- HTML5  
-- CSS3  
-- Vanilla JavaScript  
-- Google Fonts  
+---
 
-No frameworks required.
+**Tech Stack**  
+- HTML5, CSS3, Vanilla JavaScript  
+- 7Timer Weather API  
+- LocalStorage for persistence  
+
 
 ---
 
